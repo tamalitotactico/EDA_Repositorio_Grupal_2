@@ -1,78 +1,97 @@
-import java.util.List;
+import java.util.*;
 
-public class GenericObject<T> {
-    public GenericObject() {
+public class GenericObject<E> implements List {
+
+    public int size() {
+        return 0;
     }
 
-    public void size() {
-
+    public boolean isEmpty() {
+        return false;
     }
 
-    public void isEmpty() {
-
+    public boolean contains(Object o) {
+        return false;
     }
 
-    public void contains() {
-
+    public Iterator iterator() {
+        return null;
     }
 
-    public void add() {
-
+    public Object[] toArray() {
+        return null;
     }
 
-    public void add(int a) {
-
+    public Object[] toArray(Object[] a) {
+        return null;
     }
 
-    public void addAll() {
-
+    public boolean add(Object e) {
+        return false;
     }
 
-    public void addAll(int b) {
-
+    public boolean remove(Object o) {
+        return false;
     }
 
-    public void remove() {
-
+    public boolean containsAll(Collection c) {
+        return false;
     }
 
-    public void remove(int a) {
-
+    public boolean addAll(Collection c) {
+        return false;
     }
 
-    public void removeAll() {
+    public boolean addAll(int index, Collection c) {
+        return false;
+    }
 
+    public boolean removeAll(Collection c) {
+        return false;
+    }
+
+    public boolean retainAll(Collection c) {
+        return false;
     }
 
     public void clear() {
 
     }
 
-    public void equals() {
+    public Object get(int index) {
+        return null;
+    }
+
+    public Object set(int index, Object element) {
+        return null;
+    }
+
+    public void add(int index, Object element) {
 
     }
 
-    public void get() {
-
+    public Object remove(int index) {
+        return null;
     }
 
-    public void set() {
-
+    public int indexOf(Object o) {
+        return 0;
     }
 
-    public void containsAll() {
-
+    public int lastIndexOf(Object o) {
+        return 0;
     }
 
-    public void indexOf() {
-
+    public List subList(int fromIndex, int toIndex) {
+        return null;
     }
 
-    public void lastIndexOf() {
-
+    public ListIterator listIterator() {
+        return null;
     }
 
-    public void subList() {
-
+    public ListIterator listIterator(int index) {
+        return null;
     }
+
 }
