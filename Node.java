@@ -7,5 +7,4 @@ public class Node <T>{
     public Node ( T value){
         this.data = value;
     }
-    
 }
