@@ -19,9 +19,28 @@ public class Lista <T>{
         msj.nextNode = new Node<T>(value);
     }
 
-    public boolean isEmpty(){
-        return this.cabezera == null ? true : false;
-    } 
+    public void delete(T value){
+        if( isEmpty()){
+            System.out.println("No puede eliminar porque en la lista no hay nada");
+            return;
+        }
+
+        //Si se desea eliminar la cabezera
+        if(cabezera.data == value){
+            cabezera = cabezera.nextNode;
+            return;
+        }
+
+        //Para eliminar nodos que no sean la cabezera
+        Node msj = cabezera;
+        while(msj.nextNode != null){
+            if(msj.nextNode.data == value){
+                msj.nextNode = msj.nextNode.nextNode;
+                return;
+            }
+            msj = msj.nextNode;
+        }
+    }
 
     public void mostrar(){
         Node msj = cabezera ;
@@ -36,4 +55,10 @@ public class Lista <T>{
             msj = msj.nextNode;
         }
     }
+
+    
+
+    public boolean isEmpty(){
+        return (this.cabezera == null) ? true : false;
+    } 
 }
