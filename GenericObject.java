@@ -1,10 +1,17 @@
-import java.util.*;
 
 public class GenericObject<E> {
 
     public int dato;
-    public GenericObject<E> siguiente;
+    public String nombre;
 
-    GenericObject<E> obj;
+    public GenericObject(int d) {
+        this.dato = d;
+        nombre = "Anonimo";
+    }
+
+    public GenericObject(int d, String n) {
+        dato = d;
+        nombre = n;
+    }
 
 }
