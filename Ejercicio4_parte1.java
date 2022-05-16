@@ -34,12 +34,12 @@ public class Ejercicio4_parte1 {
         System.out.println("Buscamos la posición del objeto 1 y 2: " + lst1.indexOf(obj1) + " ; " +
                 lst1.indexOf(obj2)); // Se usa indexOf()
 
-        if (lst1.isEmpty()) {
+        if (lst1.isEmpty()) { // Comprueba que la lista 1 está vacía (No lo está)
             System.out.println("La lista 1 esta con objetos");
         } else {
             System.out.println("La lista 1 esta vacía");
         }
-        if (lst2.isEmpty()) {
+        if (lst2.isEmpty()) { // Comrpueba que la lista 2 está vacía (Si lo está)
             System.out.println("La lista 2 esta con objetos");
         } else {
             System.out.println("La lista 2 esta vacía");
@@ -49,6 +49,6 @@ public class Ejercicio4_parte1 {
         lst1.remove(3); // Se elimina el objeto generico en la posición 3 sin importar cual sea
         lst1.set(2, obj3); // Se setea la posición 1 para contener el objeto 3
 
-        System.out.println("El tamaño de la lista 1 es: " + lst1.size());
+        System.out.println("El tamaño de la lista 1 es: " + lst1.size()); // Se analiza el tamaño de la lista 1
     }
 }
