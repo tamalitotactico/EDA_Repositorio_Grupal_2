@@ -143,6 +143,7 @@
                </ul>
                <p class="c18"><span class="c7">Para este m&eacute;todo, lo primero que haremos ser&aacute; crear un array (Ain) en el cual se almacenar&aacute;n los datos que vayamos a invertir. Despu&eacute;s, en un ciclo &quot;for&quot; inicializamos dos contadores (i=0, j=A.length-1), de este modo mientras que &quot;i&quot; vaya aumentado de valor, &quot;j&quot; ir&aacute; disminuyendo el suyo.</span></p>
                <p class="c18"><span class="c7">A medida que vayamos recorriendo el array, se ir&aacute;n asignando los valores de Ain (Ain[ i ] = A[ j ]) y cuando se termine el ciclo se retornar&aacute; el array invertido (Ain).</span></p>
+               <img alt="" src="images/image6.png" style="width: 328.19px; height: 112.82px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title="">
                <p class="c18 c40"><span class="c7"></span></p>
                <p class="c23 c43"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 328.19px; height: 112.82px;"><img alt="" src="images/image6.png" style="width: 328.19px; height: 112.82px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
                <p class="c18 c40"><span class="c7"></span></p>
